@@ -25,7 +25,8 @@ read ip
 validateIP $ip
 
 if [[ $? -ne 0 ]];then
-  echo "Invalid IP Address please go to your browser and search my ip address  ($ip)"
+  echo "Invalid IP Address please visit i am root on Facebook   ($ip)"
 else
-  echo "$ip your ip is correctly visit our Facebook account i am root/lord om rsa love from root"
+  echo "$ip your ip is correctly visit our Facebook account i am root/lord om rsa love from root
+ https://www.facebook.com/i.am.root.2000 "
 fi
