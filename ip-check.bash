@@ -1,5 +1,28 @@
 Bash - Validate IP Addresses
 
+
+greeting="Welcome"
+user=$(whoami)
+day=$(date +%A)
+
+echo "$greeting back $user! Today is $day, which is the best day of the entire week!"
+echo "Your Bash shell version is: $BASH_VERSION. Enjoy!"
+read -p "Enter your name : " name
+echo "hi, $name. happy $day "
+#! /bin/bash
+
+# saving all the ip addresses
+ip_addresses=$(hostname -I)
+
+# splitting them by space
+ip_addresses=(${ip_addresses//" "/ })
+
+# Print each ip address line by line
+echo "LIST OF IP ADDRESSES"
+echo "$ip"
+
+fi
+
 function validateIP()
  {
          local ip=$1
